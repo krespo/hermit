@@ -7,10 +7,11 @@
 	</footer>
 
 
-
+{{ if not .Site.BuildDrafts }}
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
 <script type="text/javascript">
 if(!wcs_add) var wcs_add = {};
 wcs_add["wa"] = "42422406c68d58";
 wcs_do();
 </script>
+{{ end }}
